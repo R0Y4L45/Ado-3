@@ -8,7 +8,7 @@ namespace ADO_3
 {
     public partial class Form1 : Form
     {
-        
+        // connection string add olunub ADO-3.dll.config filesine hansi ki, exe filenin oldugu yerde yerlesir
         DbConnection? conn = null;
         DbProviderFactory? factory = null;
         DbDataAdapter? adapter = null;
