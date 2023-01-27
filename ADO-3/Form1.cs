@@ -8,6 +8,7 @@ namespace ADO_3
 {
     public partial class Form1 : Form
     {
+        
         DbConnection? conn = null;
         DbProviderFactory? factory = null;
         DbDataAdapter? adapter = null;
@@ -20,11 +21,19 @@ namespace ADO_3
         public Form1()
         {
             InitializeComponent();
-
+            //Configuration String connection add method
+            ConnectionStringAdd();
             connection = ConfigurationManager.AppSettings.Get("Key");
 
             comboBox1.Items.Add("Sql");
             comboBox1.Items.Add("OleDb");
+        }
+
+        private static void ConnectionStringAdd()
+        {
+            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            config.AppSettings.Settings.Add("Key1", "Value");
+            config.Save(ConfigurationSaveMode.Modified);
         }
 
         private void ConnectionString()

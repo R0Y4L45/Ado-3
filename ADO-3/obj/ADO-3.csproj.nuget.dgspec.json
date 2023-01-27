@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Legion 5\\source\\repos\\Ado\\ADO-3\\ADO-3.csproj": {}
+    "C:\\Users\\Legion 5\\Source\\Repos\\Ado-3\\ADO-3\\ADO-3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Legion 5\\source\\repos\\Ado\\ADO-3\\ADO-3.csproj": {
+    "C:\\Users\\Legion 5\\Source\\Repos\\Ado-3\\ADO-3\\ADO-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Legion 5\\source\\repos\\Ado\\ADO-3\\ADO-3.csproj",
+        "projectUniqueName": "C:\\Users\\Legion 5\\Source\\Repos\\Ado-3\\ADO-3\\ADO-3.csproj",
         "projectName": "ADO-3",
-        "projectPath": "C:\\Users\\Legion 5\\source\\repos\\Ado\\ADO-3\\ADO-3.csproj",
+        "projectPath": "C:\\Users\\Legion 5\\Source\\Repos\\Ado-3\\ADO-3\\ADO-3.csproj",
         "packagesPath": "C:\\Users\\Legion 5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Legion 5\\source\\repos\\Ado\\ADO-3\\obj\\",
+        "outputPath": "C:\\Users\\Legion 5\\Source\\Repos\\Ado-3\\ADO-3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Legion 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
