@@ -21,18 +21,18 @@ namespace ADO_3
         public Form1()
         {
             InitializeComponent();
-            //Configuration String connection add method
-            ConnectionStringAdd();
+            ////Configuration String connection add method
+            //ConnectionStringAdd();
             connection = ConfigurationManager.AppSettings.Get("Key");
 
             comboBox1.Items.Add("Sql");
             comboBox1.Items.Add("OleDb");
         }
 
-        private static void ConnectionStringAdd()
+        private static void ConnectionStringAdd(string key, string value)
         {
             Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            config.AppSettings.Settings.Add("Key1", "Value");
+            config.AppSettings.Settings.Add(key, value);
             config.Save(ConfigurationSaveMode.Modified);
         }
 
